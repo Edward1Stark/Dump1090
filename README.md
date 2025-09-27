@@ -30,7 +30,7 @@ While from time to time I still add / fix stuff in my fork, I target minimalism 
 Clone the project
 
 ```bash
-  git clone https://github.com/Edward1Stark/Dump1090.git
+git clone https://github.com/Edward1Stark/Dump1090.git
 ```
 
 Go to the project directory
@@ -54,7 +54,7 @@ sudo apt install librtlsdr-dev
 ```
 Build the software
 ```bash
-  make
+make
 ```
 
 
@@ -62,7 +62,7 @@ Build the software
 
 To capture traffic directly from your RTL device and show the captured traffic on standard output, just run the program without options at all:
 ```bash
-  ./dump1090
+./dump1090
 ```
 
 To just output hexadecimal messages:
@@ -202,4 +202,5 @@ No complex rules, just make it work! Follow the existing format and keep alerts 
 ## Special Thanks
 
 This project is based on the original work of [antirez](https://github.com/antirez) on dump1090. Thank you for his foundational contribution to the ADS-B community.
+
 
